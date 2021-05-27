@@ -1,0 +1,39 @@
+<div class="container">
+
+<h1>Get Customer Consent</h1>
+<p>Please read the following:</p>
+<p>
+    In order to determine your eligiblity and/or rate, we'll use <br> information from a customer reporting agency that may include:
+
+
+</p>
+<ul>
+    <li>
+        credit information on a member in your household
+    </li>
+    <li>
+        Loss history information on all named applications
+    </li>
+</ul>
+
+
+<p>Would you like more information?</p>
+<p>Offering Price Sheet: SMF-50013TX</p>
+
+<br>
+<br>
+<input type="checkbox" ng-model="checked">I have read the required notification to the customer and understand<br> consumer reports cannot be run before I provide this notification.
+<br>
+<br>
+<a routerLink="/newstart">
+<button>
+    Back
+</button>
+</a>
+&nbsp; &nbsp;
+<button ng-disabled="!checked" disabled>
+    Continue
+</button>
+
+
+</div>
