@@ -10,6 +10,8 @@ export class NewstartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    
   }
 
 }

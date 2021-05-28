@@ -1,5 +1,3 @@
-<div class="container">
-
 <h1>Get Customer Consent</h1>
 <p>Please read the following:</p>
 <p>
@@ -18,11 +16,11 @@
 
 
 <p>Would you like more information?</p>
-<p>Offering Price Sheet: SMF-50013TX</p>
+<p>Offer Pricing Sheet: SMF-50013TX</p>
 
 <br>
 <br>
-<input type="checkbox" ng-model="checked">I have read the required notification to the customer and understand<br> consumer reports cannot be run before I provide this notification.
+<input type="checkbox" #chckEnable ngModel>I have read the required notification to the customer and understand<br> consumer reports cannot be run before I provide this notification.
 <br>
 <br>
 <a routerLink="/newstart">
@@ -31,9 +29,6 @@
 </button>
 </a>
 &nbsp; &nbsp;
-<button ng-disabled="!checked" disabled>
+<button [disabled]="!chckEnable.checked">
     Continue
 </button>
-
-
-</div>
