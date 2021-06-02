@@ -1,0 +1,59 @@
+<form >
+<h1>Customer Details</h1>
+<br>
+
+<label>First Name</label><br>
+<input type="text" placeholder="First Name" class="form-control" name="fname" required>
+<br>
+<label>Last Name</label><br>
+<input type="text" placeholder="Last Name" class="form-control" name="lname" required>
+<br>
+
+<h4><b>Mailing Address</b></h4>
+<br>
+<label>Street 1</label><br>
+<input type="text" placeholder="Street 1" class="form-control" name="street1"  required><br>
+<label>Street 2</label><br>
+<input type="text" placeholder="Street 2" class="form-control" name="street2"  required>
+
+<div class="row">
+<div class="col-md-3">
+<label>City</label><br>
+<input type="text" placeholder="City" class="form-control" name="city" required>
+</div>
+<div class="col-md-4">
+<label>State</label><br>
+<input type="text" placeholder="State" class="form-control" name="state"  required>
+</div>
+<div class="col-md-3">
+<label>Zip-Code</label><br>
+<input type="text" placeholder="Zip-Code" class="form-control"  name=" zcode "required>
+</div>
+<br>
+</div>
+
+<label>Email ID</label><br>
+<input type="email" name="email" class="form-control"  required > 
+<br>
+
+<label>Date of Birth</label><br>
+<input type="date"  [(ngModel)]="age" name="dob" required>
+<br>
+<label>Age</label>&nbsp; &nbsp;<input type="button" (click)="ageCalculate()" value="Calcuate Age"><br>
+<input type="text" style="cursor: no-drop;" disabled   name="shage" value="{{showAge}}" required>
+<br>
+
+<a routerLink="/customer">
+    <button>
+        Back
+    </button>
+    </a>
+
+    &nbsp; &nbsp;
+   <a routerLink="/newstart">
+    <button type="submit">
+        Continue
+    </button>
+   </a>
+
+</form>
