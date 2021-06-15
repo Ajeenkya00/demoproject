@@ -7,6 +7,7 @@ ul{
    color: white;
     border-radius: 25px;
     padding: 10px;
+     width: 200px;
 }
 
 button:disabled,

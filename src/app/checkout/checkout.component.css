@@ -1,0 +1,85 @@
+select {
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    
+    padding: 8px;
+}
+button{
+    background-color:  red;
+    color: white;
+     border-radius: 25px;
+     padding: 12px;
+     width: 100%;
+     transition: all 0.5s;
+  cursor: pointer;
+ }
+ 
+ button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+ }
+ .highon{
+ color: gold;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px chartreuse;
+}
+ .highoff{
+ color:rgb(25, 229, 236);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(30, 155, 238), 0 0 5px rgb(19, 88, 236);
+font-weight: bold;
+}
+
+input[type=button]{
+    border-radius: 12px;
+    width:60%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color:powderblue;
+    font-weight: bold;
+    color:indigo;
+
+}
+input[type=text]{
+    border-radius: 7px;
+    width:100%;
+    padding: 4px;
+    border: 2px solid rgb(43, 152, 255);
+}
+
+.vertical {
+    border-left: 2px solid rgb(42, 104, 99);
+    height: 230px;
+    position:absolute;
+    left: 49%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+  }

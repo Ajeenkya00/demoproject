@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-detail',
@@ -9,10 +10,16 @@ export class DetailComponent implements OnInit {
 
   age;
   showAge;
-  constructor() { }
+
+
+ 
 
   ngOnInit(): void {
+
+   
   }
+
+ 
   ageCalculate(){
     if(this.age){
       const convertAge = new Date(this.age);
@@ -20,5 +27,8 @@ export class DetailComponent implements OnInit {
       this.showAge = Math.floor((timeDiff / (1000 * 3600 * 24))/365);
     }
   }
-
 }
+
+  
+
+

@@ -1,18 +1,18 @@
-<form >
+<form>
 <h1>Customer Details</h1>
 <br>
 
 <label>First Name</label><br>
 <input type="text" placeholder="First Name" class="form-control" name="fname" required>
-<br>
+
 <label>Last Name</label><br>
 <input type="text" placeholder="Last Name" class="form-control" name="lname" required>
-<br>
+
 
 <h4><b>Mailing Address</b></h4>
-<br>
+
 <label>Street 1</label><br>
-<input type="text" placeholder="Street 1" class="form-control" name="street1"  required><br>
+<input type="text" placeholder="Street 1" class="form-control" name="street1"  required>
 <label>Street 2</label><br>
 <input type="text" placeholder="Street 2" class="form-control" name="street2"  required>
 
@@ -32,9 +32,6 @@
 <br>
 </div>
 
-<label>Email ID</label><br>
-<input type="email" name="email" class="form-control"  required > 
-<br>
 
 <label>Date of Birth</label><br>
 <input type="date"  [(ngModel)]="age" name="dob" required>
@@ -43,6 +40,9 @@
 <input type="text" style="cursor: no-drop;" disabled   name="shage" value="{{showAge}}" required>
 <br>
 
+<label>Email ID</label><br>
+<input type="email" name="email" class="form-control"  required> 
+
 <a routerLink="/customer">
     <button>
         Back
@@ -50,7 +50,7 @@
     </a>
 
     &nbsp; &nbsp;
-   <a routerLink="/newstart">
+   <a routerLink="/homedetails">
     <button type="submit">
         Continue
     </button>

@@ -7,6 +7,11 @@ import { CustomerComponent } from './customer/customer.component';
 import { RoutingModule } from './routing.module';
 import { NewstartComponent } from './newstart/newstart.component';
 import { DetailComponent } from './detail/detail.component';
+import { HomedetailsComponent } from './homedetails/homedetails.component';
+import { OtherdetailsComponent } from './otherdetails/otherdetails.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { NgxBootstrapSwitchModule } from 'ngx-bootstrap-switch';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -14,12 +19,20 @@ import { DetailComponent } from './detail/detail.component';
     AppComponent,
     CustomerComponent,
     NewstartComponent,
-    DetailComponent
+    DetailComponent,
+    HomedetailsComponent,
+    OtherdetailsComponent,
+    CheckoutComponent,
+   
+    
+  
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    RoutingModule
+    RoutingModule,
+    BrowserAnimationsModule,
+    NgxBootstrapSwitchModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
