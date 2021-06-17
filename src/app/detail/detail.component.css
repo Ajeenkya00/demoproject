@@ -13,5 +13,21 @@ button{
     color: white;
      border-radius: 25px;
      padding: 10px;
-     width: 200px;
+     width: 38%;
  }
+ h1{
+    color:crimson;
+  }
+ .container1 {
+    width: 100%;
+    background-color: #ddd;
+    height:10px;
+  }
+  
+  .skills {
+    text-align: right;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .html {width: 30%;  height:10px; background-color: #04AA6D;}

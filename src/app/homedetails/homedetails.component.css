@@ -19,11 +19,27 @@ input[type=checkbox]{
     height: 15px;
     width: 15px;
  }
+ h1{
+    color:crimson;
+  }
 
 button{
     background-color:  red;
     color: white;
      border-radius: 25px;
      padding: 10px;
-     width: 200px;
+     width: 39%;
  }
+ .container1 {
+    width: 100%;
+    background-color: #ddd;
+    height:10px;
+  }
+  
+  .skills {
+    text-align: right;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .html {width: 50%;  height:10px; background-color: #04AA6D;}

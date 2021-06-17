@@ -16,3 +16,25 @@ button[disabled]{
   background-color: #cccccc;
   color: #666666;
 }
+
+input[type=checkbox]{
+  width: 18px;
+  height: 18px;
+}
+h1{
+  color:crimson;
+}
+
+.container1 {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+  font-size: 10px;
+}
+
+.html {width: 10%;  height: 10px; background-color: #04AA6D;}

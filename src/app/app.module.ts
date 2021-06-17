@@ -12,6 +12,7 @@ import { OtherdetailsComponent } from './otherdetails/otherdetails.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { NgxBootstrapSwitchModule } from 'ngx-bootstrap-switch';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SuccessComponent } from './success/success.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomedetailsComponent,
     OtherdetailsComponent,
     CheckoutComponent,
+    SuccessComponent,
    
     
   

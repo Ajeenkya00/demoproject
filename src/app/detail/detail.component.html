@@ -1,3 +1,16 @@
+
+
+<br>
+<div class="row">
+    <div class="col-sm-12">
+<div class="container1">
+    <div class="skills html">30%</div>
+  </div>
+  </div>
+</div>
+
+
+
 <form>
 <h1>Customer Details</h1>
 <br>
@@ -9,34 +22,35 @@
 <input type="text" placeholder="Last Name" class="form-control" name="lname" required>
 
 
-<h4><b>Mailing Address</b></h4>
+<label><b>Mailing Address</b></label>
 
-<label>Street 1</label><br>
+
 <input type="text" placeholder="Street 1" class="form-control" name="street1"  required>
-<label>Street 2</label><br>
+
 <input type="text" placeholder="Street 2" class="form-control" name="street2"  required>
 
 <div class="row">
-<div class="col-md-3">
+<div class="col-md-3 col-sm-3">
 <label>City</label><br>
 <input type="text" placeholder="City" class="form-control" name="city" required>
 </div>
-<div class="col-md-4">
+<div class="col-md-4 col-sm-4">
 <label>State</label><br>
 <input type="text" placeholder="State" class="form-control" name="state"  required>
 </div>
-<div class="col-md-3">
+<div class="col-md-3 col-sm-3">
 <label>Zip-Code</label><br>
-<input type="text" placeholder="Zip-Code" class="form-control"  name=" zcode "required>
+<input type="text" placeholder="Zip-Code" class="form-control"  name=" zcode " maxlength="6" required>
 </div>
 <br>
 </div>
 
 
 <label>Date of Birth</label><br>
-<input type="date"  [(ngModel)]="age" name="dob" required>
+<input type="date"  [(ngModel)]="age" name="dob" (ngModelChange)="ageCalculate()"required>
 <br>
-<label>Age</label>&nbsp; &nbsp;<input type="button" (click)="ageCalculate()" value="Calcuate Age"><br>
+<label>Age</label>&nbsp; &nbsp;<br> 
+
 <input type="text" style="cursor: no-drop;" disabled   name="shage" value="{{showAge}}" required>
 <br>
 

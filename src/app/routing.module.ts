@@ -6,6 +6,7 @@ import { DetailComponent } from "./detail/detail.component";
 import { HomedetailsComponent } from "./homedetails/homedetails.component";
 import { OtherdetailsComponent } from "./otherdetails/otherdetails.component";
 import { CheckoutComponent } from "./checkout/checkout.component";
+import { SuccessComponent } from "./success/success.component";
 
 
 
@@ -17,7 +18,8 @@ const appRoutes:Routes=[
     {path:'detail',component:DetailComponent},
     {path:'homedetails',component:HomedetailsComponent},
     {path:'otherdetails', component:OtherdetailsComponent},
-    {path:'checkout', component:CheckoutComponent}
+    {path:'checkout', component:CheckoutComponent},
+    {path:'success', component:SuccessComponent}
 
    
     
