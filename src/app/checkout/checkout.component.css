@@ -36,6 +36,9 @@ button{
     padding-right: 25px;
   }
   
+  hr{
+    border-top: 3px dotted red;
+  }
   button:hover span:after {
     opacity: 1;
     right: 0;
@@ -55,11 +58,12 @@ font-weight: bold;
 }
 h1{
   color:crimson;
+  text-align: center;
 }
 
 input[type=button]{
     border-radius: 12px;
-    width:60%;
+    width:100%;
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 3px;

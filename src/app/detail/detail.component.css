@@ -1,22 +1,26 @@
 input[type=text],input[type=date], input[type=email]{
 
     border-radius: 12px;
-    width:80%;
+    width:100%;
     margin-bottom: 20px;
     padding: 8px;
     border: 1px solid #ccc;
 }
 
+hr{
+  border-top: 3px dotted red;
+}
 
 button{
     background-color:  red;
     color: white;
      border-radius: 25px;
      padding: 10px;
-     width: 38%;
+     width: 100%;
  }
  h1{
     color:crimson;
+    text-align: center;
   }
  .container1 {
     width: 100%;

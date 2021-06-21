@@ -13,6 +13,7 @@
 
 <form>
 <h1>Customer Details</h1>
+<hr>
 <br>
 
 <label>First Name</label><br>
@@ -30,7 +31,7 @@
 <input type="text" placeholder="Street 2" class="form-control" name="street2"  required>
 
 <div class="row">
-<div class="col-md-3 col-sm-3">
+<div class="col-md-4 col-sm-4">
 <label>City</label><br>
 <input type="text" placeholder="City" class="form-control" name="city" required>
 </div>
@@ -38,7 +39,7 @@
 <label>State</label><br>
 <input type="text" placeholder="State" class="form-control" name="state"  required>
 </div>
-<div class="col-md-3 col-sm-3">
+<div class="col-md-4 col-sm-4">
 <label>Zip-Code</label><br>
 <input type="text" placeholder="Zip-Code" class="form-control"  name=" zcode " maxlength="6" required>
 </div>
@@ -56,18 +57,24 @@
 
 <label>Email ID</label><br>
 <input type="email" name="email" class="form-control"  required> 
-
+<br>
+<div class="row">
+    <div class="col-md-6 col-sm-6">
 <a routerLink="/customer">
     <button>
         Back
     </button>
     </a>
+</div>
 
-    &nbsp; &nbsp;
+    
+    <div class="col-md-6 col-sm-6">
    <a routerLink="/homedetails">
     <button type="submit">
         Continue
     </button>
    </a>
+</div>
+</div>
 
 </form>

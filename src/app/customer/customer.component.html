@@ -1,5 +1,5 @@
 
-<br><br>
+<br>
 <div class="row">
     <div class="col-sm-12">
 <div class="container1">
@@ -9,10 +9,11 @@
 </div>
 
 <br>
-<h1 style="text-align: center;">Get Customer Consent</h1><br>
+<h1>Get Customer Consent</h1>
+<hr>
 <p>Please read the following:</p>
 <p>
-    In order to determine your eligiblity and/or rate, we'll use <br> information from a customer reporting agency that may include:
+    In order to determine your eligiblity and/or rate, we'll use  information from a customer reporting agency that may include:
 
 
 </p>
@@ -32,18 +33,22 @@
 <br>
 <br>
 <p>
-<input type="checkbox" #chckEnable ngModel> &nbsp; I have read the required notification to the customer and understand<br> consumer reports cannot be run before I provide this notification.
+<input type="checkbox" #chckEnable ngModel> &nbsp; I have read the required notification to the customer and understand consumer reports cannot be run before I provide this notification.
 </p>
 <br>
-
+<div class="row">
+    <div class="col-md-6 col-sm-6">
 <a routerLink="/newstart">
 <button>
     Back
 </button>
 </a>
-&nbsp; &nbsp;
+</div>
+<div class="col-md-6 col-sm-6">
 <a routerLink="/detail">
 <button [disabled]="!chckEnable.checked">
     Continue
 </button>
 </a>
+</div>
+</div>

@@ -6,12 +6,15 @@ select {
     
     padding: 8px;
 }
+hr{
+  border-top: 3px dotted red;
+}
 button{
     background-color:  red;
     color: white;
      border-radius: 25px;
      padding: 8px;
-     width: 44%;
+     width: 100%;
  }
  
  input[type=checkbox]{
@@ -21,6 +24,7 @@ button{
  
  h1{
      color: crimson;
+     text-align: center;
  }
 
  .container1 {
