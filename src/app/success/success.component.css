@@ -5,3 +5,10 @@
        letter-spacing: 3px;
        
 }
+
+h4{
+  color:indigo;
+}
+hr{
+  border-top: 3px dotted coral;
+}
